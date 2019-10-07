@@ -18,7 +18,7 @@ def local_threshold(image):   #區域值
 
 
 print("----------- Hello Python ------------")
-src = cv.imread("E:/Image/binaryImageTest.jpg")              # 讀取圖檔
+src = cv.imread("E:\PYAI\image/binaryImageTest.jpg")              # 讀取圖檔
 cv.imshow("Input Image",src)                        # 顯示圖片
 cv.namedWindow("Input Image",cv.WINDOW_AUTOSIZE)
 
