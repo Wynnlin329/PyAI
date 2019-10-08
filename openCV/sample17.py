@@ -16,12 +16,12 @@ def big_image_binary(image):
             gray[row:row + ch, col:col + cw] = dst          #分塊覆蓋
             print(np.std(dst),np.mean(dst))
 
-    cv.imwrite("D:/Image/result_binary.jpg",gray)
+    cv.imwrite("E:\PYAI/Image/result_binary.jpg",gray)
     cv.imshow("big_image_binary",gray)
 
 
 print("----------- Hello Python ------------")
-src = cv.imread("D:/Image/B5.jpg")                   # 讀取圖檔
+src = cv.imread("E:\PYAI/Image/B5.jpg")                   # 讀取圖檔
 cv.imshow("Input Image",src)                         # 顯示圖片
 cv.namedWindow("Input Image",cv.WINDOW_AUTOSIZE)     # 自動調整視窗大小
 big_image_binary(src)
